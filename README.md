@@ -1,4 +1,4 @@
-## NearBom Is Made iN ReactJS And NextJs FrameWork
+## NearBom Is Made In ReactJS And NextJs FrameWork
 
 
 
