@@ -1,8 +1,14 @@
-
 body{
-  background-color:black;
+  /* background-color:#4527a0; */
 }
 
-button{
-  color:red;
+/* .MuiButton-root{
+  color: white !important;
+  background-color:#e65100 !important;
+} */
+
+
+.login{
+  color:red !important;
+  background-color:white !important;
 }

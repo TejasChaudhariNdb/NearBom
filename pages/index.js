@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Tejas from './tejas.js'
+import Button from '@material-ui/core/Button';
 
 export default function Home() {
   return (
@@ -8,8 +8,11 @@ export default function Home() {
         <title>RenZer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-<Tejas/>
+
+<Button variant="contained" className="login"> Button</Button>
+<Button variant="outlined" className="login" > Button2</Button>
 
 </>
+
   )
 }
