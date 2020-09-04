@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
 
       <div className="card">
+        Tejas
   </div>
 
 
