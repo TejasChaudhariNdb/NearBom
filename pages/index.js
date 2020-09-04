@@ -1,18 +1,19 @@
-import Head from 'next/head'
-import Button from '@material-ui/core/Button';
 
+import Head from "next/head";
+import Button from "@material-ui/core/Button";
+import BottomNav from "./components/BottomNav.js"
 export default function Home() {
   return (
-<>
-<Head>
-        <title>RenZer</title>
-        <link rel="icon" href="/favicon.ico" />
+    <>
+      <Head>
+        <title> NearBom </title> <link rel="icon" href="/favicon.ico" />
       </Head>
 
-<Button variant="contained" className="login"> Button</Button>
-<Button variant="outlined" className="login" > Button2</Button>
+      <div className="card">
+  </div>
 
-</>
 
-  )
+<BottomNav />
+    </>
+  );
 }
