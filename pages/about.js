@@ -2,14 +2,12 @@ import React from 'react'
 import BottomNav from './components/BottomNav.js'
 import Nav from './components/Nav.js'
 import Link from 'next/link'
+import Joke from "./joke.js"
+
 export default function about() {
     return (
         <>
         <Nav/>
-    
-
-
-    
     
         <ul>
       <li>
@@ -29,6 +27,7 @@ export default function about() {
     
     <marquee>        This is About Page </marquee>
     
+    <Joke />
         <BottomNav/>
         </>
     )
