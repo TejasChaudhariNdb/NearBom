@@ -6,13 +6,29 @@ export default function about() {
     return (
         <>
         <Nav/>
-        <div>
+    
+
+
+    
+    
+        <ul>
+      <li>
         <Link href="/">
           <a>Home</a>
         </Link>
+
+      </li>
+      <li>
+        <Link href="/about" as="about">
+          <a>About Us</a>
+        </Link>
+      </li>
+    </ul>
+
     <br/>
-            About
-        </div>
+    
+    <marquee>        This is About Page </marquee>
+    
         <BottomNav/>
         </>
     )
