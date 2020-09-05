@@ -45,6 +45,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     backgroundColor: theme.palette.background.paper,
+    // backgroundColor: "black",
   },
 }));
 
@@ -69,7 +70,9 @@ export default function SimpleTab() {
  
       </TabPanel>
       <TabPanel value={value} index={1}>
+
 <Catlog/> 
+
       </TabPanel>
      
     </div>

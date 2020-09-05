@@ -60,7 +60,7 @@ export default function catlog() {
          <Grid item 
            container
            direction="row"
-           spacing={2}
+           spacing={1}
          >
 
 
