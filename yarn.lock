@@ -53,11 +53,6 @@
   dependencies:
     cross-fetch "3.0.5"
 
-"@aniketchaudhari/funjokes@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@aniketchaudhari/funjokes/-/funjokes-3.0.0.tgz#8ed69b19f6e86018d878ab8d9eaf73b9fa5576ef"
-  integrity sha512-bnq3X8/uQoqmBTlnj11FdmQ7IwaFNQf3Ms9wXcbvuVFF+CnuVyZArZtHqxFlPXD2/Ux/I0pxLcEa+GqY6PGsyg==
-
 "@babel/code-frame@7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"

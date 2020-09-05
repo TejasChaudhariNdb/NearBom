@@ -35,3 +35,14 @@ body {
   position: relative;
   margin-top:20%;
 }
+
+.scroll{
+  overflow-y: scroll;
+    height: 70vh;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}

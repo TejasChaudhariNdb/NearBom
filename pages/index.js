@@ -8,9 +8,7 @@ import SimpleTab from "./SimpleTab.js"
 export default function Home() {
   return (
     <>
-      <Head>
-        <title> NearBom </title> <link rel="icon" href="/favicon.ico" />
-      </Head>
+     
       <Nav />
 
 <SimpleTab/>
