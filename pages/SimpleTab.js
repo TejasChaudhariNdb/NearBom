@@ -72,6 +72,8 @@ export default function SimpleTab() {
       <TabPanel value={value} index={1}>
 
 <Catlog/> 
+<br/>
+<br/>
 
       </TabPanel>
      
