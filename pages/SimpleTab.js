@@ -65,11 +65,11 @@ export default function SimpleTab() {
           <Tab label="Catlog" {...a11yProps(1)} />
         </Tabs>
       </AppBar>
-      <TabPanel value={value} index={0}>
+      <TabPanel value={value} index={0} className="tab_back">
      Shop Deatils Here
  
       </TabPanel>
-      <TabPanel value={value} index={1}>
+      <TabPanel value={value} index={1} className="tab_back">
 
 <Catlog/> 
 <br/>

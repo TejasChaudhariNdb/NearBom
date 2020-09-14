@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+
 body {
   margin:0px;
 }
@@ -46,4 +54,31 @@ body {
 
 .scroll::-webkit-scrollbar {
   display: none;
+}
+
+.product_card{
+  height:100%;
+}
+
+.share_nav{
+  color:white;
+}
+
+.shopName{
+
+  justify-content: center;
+    display: flex;
+    flex: 1;
+}
+.info{
+  flex: 1;
+  justify-content: flex-start !important;
+}
+
+.tab_back{
+background-color:#fafafa;
+}
+
+.MuiBox-root{
+padding: 10px !important;
 }

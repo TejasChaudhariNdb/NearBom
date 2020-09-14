@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -8,13 +7,12 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
+import IconButton from '@material-ui/core/IconButton';;
 import Grid from '@material-ui/core/Grid';
+import Share from '@material-ui/icons/Share';
 
 const useStyles = makeStyles({
-  root: {
-    // maxWidth:5,
-  },
+  
   media: {
     height: 140,
   },
@@ -27,24 +25,24 @@ export default function catlog() {
 
     const users = [
         {
-          name: "William",
-          location: "🏘️ Lagos",
+          name: "Samsung A20",
+          price: "$7854",
         },
         {
-          name: "Chris",
-          location: "🏘️ Moon",
+          name: "Joke2",
+          price: "$7855",
         },
         {
-          name: " Rose",
-          location: "🏘️ Venice",
+          name: "Laptop lenovo",
+          price: "$4522",
         },
         {
-          name: "😃 Mike",
-          location: "🏘️ Milan",
+          name: "Redmi",
+          price: "$7899",
         },
         {
-          name: "😃 Liz",
-          location: "🏘️ Beirut",
+          name: "Oppo A7 64",
+          price: "$9655",
         }
       ];
     
@@ -71,29 +69,33 @@ export default function catlog() {
 <Grid item xs >
 
     
-    <Card className={classes.root}>
+    <Card className="product_card">
       <CardActionArea>
         <CardMedia
           className={classes.media}
           image="https://bit.ly/35cbc5R"
-          title="Contemplative Reptile"
+          title={user.name}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography variant="h6" component="p">
           {user.name}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          {user.location}
+          {user.price}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
+
+
+      <Button size="small" color="secondary" className="info">
+          info
         </Button>
-        <Button size="small" color="secondary">
-          See More
-        </Button>
+
+        <IconButton size="small" color="primary">
+            <Share />
+          </IconButton>
+
       </CardActions>
     </Card>
 
