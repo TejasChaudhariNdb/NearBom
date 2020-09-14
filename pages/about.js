@@ -1,8 +1,6 @@
 import React from "react";
 import BottomNav from "./components/BottomNav.js";
-import Nav from "./components/Nav.js";
 import Link from "next/link";
-import Joke from "./joke.js";
 import Head from "next/head";
 
 export default function about() {
@@ -13,7 +11,7 @@ export default function about() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Nav />
+
 
       <ul>
         <li>
@@ -32,7 +30,6 @@ export default function about() {
 
     <center>This is About Page </center>
 
-      <Joke />
       <BottomNav />
     </>
   );
