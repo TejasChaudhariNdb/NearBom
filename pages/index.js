@@ -18,8 +18,12 @@ export default function Home() {
 <br/><br/>
 <a href="/shop">Shop By A tag</a>
 <br/><br/>
-<Link href="/shop">
+<Link href="/shop" >
           <a>Shop by Link Tag </a>
+        </Link>
+        <br/><br/>
+<Link href="/about">
+          <a>About </a>
         </Link>
       <BottomNav />
     </>

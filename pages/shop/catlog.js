@@ -24,23 +24,27 @@ export default function catlog() {
 
 
     const users = [
-        {
+        { id:1,
           name: "Samsung A20",
           price: "$7854",
         },
         {
+          id:2,
           name: "Joke2",
           price: "$7855",
         },
         {
+          id:3,
           name: "Laptop lenovo",
           price: "$4522",
         },
         {
+          id:4,
           name: "Redmi",
           price: "$7899",
         },
         {
+          id:5,
           name: "Oppo A7 64",
           price: "$9655",
         }
@@ -53,20 +57,19 @@ export default function catlog() {
     return (
         <>
 
-<div className="scroll">
 
          <Grid item 
            container
            direction="row"
            spacing={1}
-         >
+           className="scroll">
 
 
 {users.map((user, index) => (
           <>
            
         
-<Grid item xs >
+<Grid  id={index} item xs >
 
     
     <Card className="product_card">
@@ -109,7 +112,6 @@ export default function catlog() {
 
     </Grid> 
 
-    </div>
         </>
     )
 }

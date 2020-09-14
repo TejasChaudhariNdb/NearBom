@@ -1,4 +1,4 @@
-import BottomNav from "../components/BottomNav.js";
+import BottomNav from "./BottomNav.js";
 import Nav from "./Nav.js";
 
 import SimpleTab from "./SimpleTab.js"
