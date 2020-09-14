@@ -1,9 +1,16 @@
-import React from 'react'
+import BottomNav from "../components/BottomNav.js";
+import Nav from "./Nav.js";
+
+import SimpleTab from "./SimpleTab.js"
 
 export default function index() {
-    return (
-        <div>
-            Index
-        </div>
-    )
+  return (
+    <>
+     
+      <Nav shopName="Tejas Shop"/>
+
+<SimpleTab/>
+      <BottomNav />
+    </>
+  );
 }
