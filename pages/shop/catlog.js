@@ -73,9 +73,10 @@ export default function catlog() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="https://bit.ly/35cbc5R"
+          image="https://picsum.photos/200/300"
           title={user.name}
         />
+        
         <CardContent>
           <Typography variant="h6" component="p">
           {user.name}
